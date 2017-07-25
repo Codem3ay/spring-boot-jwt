@@ -1,6 +1,7 @@
 # Spring boot with JWT
 
 ###About
+
 This project presents the usage of **JWT (JASON WEB TOKEN)** with **Spring Security** and **Spring boot**. This solution
 is based on [**JWT Spring Security Demo**](https://github.com/szerhusenBC/jwt-spring-security-demo "Repository link") 
 project by [**Stephan Zerhusen**](https://github.com/szerhusenBC "Github's profile link").
@@ -8,6 +9,7 @@ project by [**Stephan Zerhusen**](https://github.com/szerhusenBC "Github's profi
 It has less code and can be used as a starter point for your development.
 
 ###Usage
+
 Just run your application either by your IDE (STS, Intellij) or from the command line by using the 
 Spring Boot Maven Plugin with the command `mvn spring-boot:run`. 
 
