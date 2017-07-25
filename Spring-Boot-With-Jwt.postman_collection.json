@@ -1,0 +1,76 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Spring-Boot-With-Jwt",
+		"_postman_id": "c73d0db7-61ff-fb96-e74e-44bd84211ce2",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "[LOGIN] : localhost:8080/authentication/login",
+			"request": {
+				"url": "localhost:8080/authentication/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"admin\",\n\t\"password\": \"admin\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "[PUBLIC ENDPOINT] : localhost:8080/place/public",
+			"request": {
+				"url": "localhost:8080/place/public",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "[USER ENDPOINT] : localhost:8080/place/user",
+			"request": {
+				"url": "localhost:8080/place/user",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZGllbmNlIjoid2ViIiwiY3JlYXRlZCI6MTUwMTAxMjU3NzU2MSwiZXhwIjoxNTAxNjE3Mzc3fQ.5zEFrgcRo2r93ehFw9wThC3CNIfZOz6rXeCrxDnD3csiStf33dK97BpApzn-_ID9uiWNiOvjzMloGPGZj2XRGA",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "[ADMIN ENDPOINT] : localhost:8080/place/admin",
+			"request": {
+				"url": "localhost:8080/place/admin",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZGllbmNlIjoid2ViIiwiY3JlYXRlZCI6MTUwMTAxMjU3NzU2MSwiZXhwIjoxNTAxNjE3Mzc3fQ.5zEFrgcRo2r93ehFw9wThC3CNIfZOz6rXeCrxDnD3csiStf33dK97BpApzn-_ID9uiWNiOvjzMloGPGZj2XRGA",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
