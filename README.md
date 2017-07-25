@@ -2,7 +2,7 @@
 
 ### About
 
-This project presents the usage of **JWT (JASON WEB TOKEN)** with **Spring Security** and **Spring boot**. This solution
+This project presents the usage of **JWT (JSON WEB TOKEN)** with **Spring Security** and **Spring boot**. This solution
 is based on [**JWT Spring Security Demo**](https://github.com/szerhusenBC/jwt-spring-security-demo "Repository link") 
 project by [**Stephan Zerhusen**](https://github.com/szerhusenBC "Github's profile link").
 
